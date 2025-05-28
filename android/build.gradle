@@ -29,6 +29,11 @@ android {
     ndkVersion flutter.ndkVersion
     namespace 'com.audio_picker.audio_picker'
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
